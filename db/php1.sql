@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS php1-oswpadron
+CREATE DATABASE IF NOT EXISTS php1_oswpadron
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_general_ci;
 
-USE php1;
+USE php1_oswpadron;
 
 CREATE TABLE IF NOT EXISTS usuarios (
   cedula INT(10) PRIMARY KEY NOT NULL,
